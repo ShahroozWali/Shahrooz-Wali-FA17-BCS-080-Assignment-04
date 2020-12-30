@@ -36,10 +36,10 @@ const WorldScreen = ({navigation}) => {
         setCritical(responseOne[0].critical);
         setDeaths(responseOne[0].deaths);
         setLastUpdate(responseOne[0].lastUpdate)
-        setCountry(responseTwo[0].Date)
+        setCountry(responseTwo)
         console.log(responseOne);
         console.log(responseTwo);
-        console.log(country)
+        console.log(country);
       })
     )
     .catch(errors => {
